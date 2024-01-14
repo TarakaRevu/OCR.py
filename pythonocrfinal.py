@@ -21,7 +21,7 @@ pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tessera
 
 # Image feeds
 img1 = cv2.imread('poster.png')
-img2 = cv2.imread('TEST.png')
+img2 = cv2.imread('2')
 img3 = cv2.imread('TEST2.png')
 # Obtains only the string from images without visual feedback
 # print(pytesseract.image_to_string(img1))
